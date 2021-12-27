@@ -1,0 +1,46 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "994cece4-3588-4ee5-b1a2-a25e1c80fa4c": {
+      "ProjectGuid": "994cece4-3588-4ee5-b1a2-a25e1c80fa4c",
+      "DisplayName": "CL.WebApi",
+      "ColorIndex": 0
+    },
+    "3936cb7b-ccb4-42bb-b93c-06a7b11f4cdb": {
+      "ProjectGuid": "3936cb7b-ccb4-42bb-b93c-06a7b11f4cdb",
+      "DisplayName": "CL.Manager",
+      "ColorIndex": 1
+    },
+    "b74892a3-41dc-4b43-9da7-2ba5b63d9e7f": {
+      "ProjectGuid": "b74892a3-41dc-4b43-9da7-2ba5b63d9e7f",
+      "DisplayName": "CL.Data",
+      "ColorIndex": 2
+    },
+    "0b64078f-6401-49ba-b18c-9f8b9c9169f2": {
+      "ProjectGuid": "0b64078f-6401-49ba-b18c-9f8b9c9169f2",
+      "DisplayName": "CL.Core",
+      "ColorIndex": 3
+    },
+    "74f1be28-b004-4641-a816-9bbe462c8b9d": {
+      "ProjectGuid": "74f1be28-b004-4641-a816-9bbe462c8b9d",
+      "DisplayName": "CL.Tests",
+      "ColorIndex": 4
+    },
+    "539f4b9c-4e82-4ac1-a394-0609152b6a08": {
+      "ProjectGuid": "539f4b9c-4e82-4ac1-a394-0609152b6a08",
+      "DisplayName": "CL.WebApi",
+      "ColorIndex": 5
+    },
+    "ba1ab422-6c8d-4a45-924b-546858e84037": {
+      "ProjectGuid": "ba1ab422-6c8d-4a45-924b-546858e84037",
+      "DisplayName": "01.CL.WebApi",
+      "ColorIndex": 6
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 7
+}
