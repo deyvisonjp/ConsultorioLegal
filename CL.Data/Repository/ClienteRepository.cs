@@ -36,6 +36,42 @@ namespace CL.Data.Repository
             //return await _context.Clientes.AsNoTracking().Where(c => c.Id == id).FirstOrDefaultAsync();
         }
 
+        //Insert
+        public async Task<Cliente> InsertClienteAsync(Cliente cliente)
+        {
+            await _context.Clientes.AddAsync(cliente);
+            await _context.SaveChangesAsync();
+            return cliente;
+        }
+
+        //Update
+        public async Task<Cliente> UpdateClienteAsync(Cliente cliente)
+        {
+            var clienteConsultado = await _context.Clientes.FindAsync(cliente.Id);
+            if (clienteConsultado == null)
+            {
+                return null;
+            }
+
+            //clienteConsultado.Nome = cliente.Nome;
+            //clienteConsultado.DataNascimento = cliente.DataNascimento;
+            //_context.Clientes.Update(clienteConsultado);
+            // O mesmo esta abaixo
+
+            _context.Entry(clienteConsultado).CurrentValues.SetValues(cliente); // Não importa quantos campos tenham, contanto que seja tipos iguais será setado
+
+            await _context.SaveChangesAsync();
+            return clienteConsultado;
+
+        }
+
+        //Delete
+        public async Task DeleteClienteAsync(int id)
+        {
+            var clienteConsultado = await _context.Clientes.FindAsync(id);
+            _context.Clientes.Remove(clienteConsultado);
+            await _context.SaveChangesAsync();
+        }
     }
 
 }

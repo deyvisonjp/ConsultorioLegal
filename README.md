@@ -48,6 +48,9 @@ https://youtu.be/ADU0R7Pjwzc?list=PLbq2QKd5ieAt0H551D_0E4bGIYRxbq5HL
 	4. Add o escopos nos Program.cs
 	5. utlizamos a manager em Controller
 
-## Aula 4 - 
+## Aula 4 - Post, Put e Delete
 https://youtu.be/U56ly54RT-I?list=PLbq2QKd5ieAt0H551D_0E4bGIYRxbq5HL
-
+1. Implementar as tres ações em Repository
+2. Implementar as interfaces (IClienteRepository, IClienteManager)
+3. Implementar a Manager
+4. Implementar no Usuario Controller 
