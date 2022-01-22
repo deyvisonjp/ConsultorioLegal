@@ -2,6 +2,69 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "AutoMapper/11.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/AutoMapper.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/AutoMapper.dll": {}
+        }
+      },
+      "AutoMapper.Extensions.Microsoft.DependencyInjection/11.0.0": {
+        "type": "package",
+        "dependencies": {
+          "AutoMapper": "11.0.0",
+          "Microsoft.Extensions.Options": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {}
+        }
+      },
+      "FluentValidation/10.3.6": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/FluentValidation.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/FluentValidation.dll": {}
+        }
+      },
+      "FluentValidation.AspNetCore/10.3.6": {
+        "type": "package",
+        "dependencies": {
+          "FluentValidation": "10.3.6",
+          "FluentValidation.DependencyInjectionExtensions": "10.3.6"
+        },
+        "compile": {
+          "lib/net6.0/FluentValidation.AspNetCore.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/FluentValidation.AspNetCore.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "FluentValidation.DependencyInjectionExtensions/10.3.6": {
+        "type": "package",
+        "dependencies": {
+          "FluentValidation": "10.3.6",
+          "Microsoft.Extensions.Dependencyinjection.Abstractions": "2.1.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll": {}
+        }
+      },
       "Humanizer.Core/2.8.26": {
         "type": "package",
         "compile": {
@@ -61,7 +124,7 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.Routing.Abstractions.dll": {}
         }
       },
-      "Microsoft.CSharp/4.5.0": {
+      "Microsoft.CSharp/4.7.0": {
         "type": "package",
         "compile": {
           "ref/netcoreapp2.0/_._": {}
@@ -794,6 +857,16 @@
           "bin/placeholder/CL.Core.dll": {}
         }
       },
+      "CL.Core.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/CL.Core.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CL.Core.Shared.dll": {}
+        }
+      },
       "CL.Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -815,7 +888,10 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "CL.Core": "1.0.0"
+          "CL.Core": "1.0.0",
+          "CL.Core.Shared": "1.0.0",
+          "FluentValidation.AspNetCore": "10.3.6",
+          "automapper": "11.0.0"
         },
         "compile": {
           "bin/placeholder/CL.Manager.dll": {}
@@ -827,6 +903,92 @@
     }
   },
   "libraries": {
+    "AutoMapper/11.0.0": {
+      "sha512": "+596AnKykYCk9RxXCEF4GYuapSebQtFVvIA1oVG1rrRkCLAC7AkWehJ0brCfYUbdDW3v1H/p0W3hob7JoXGjMw==",
+      "type": "package",
+      "path": "automapper/11.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "automapper.11.0.0.nupkg.sha512",
+        "automapper.nuspec",
+        "icon.png",
+        "lib/netstandard2.1/AutoMapper.dll",
+        "lib/netstandard2.1/AutoMapper.xml"
+      ]
+    },
+    "AutoMapper.Extensions.Microsoft.DependencyInjection/11.0.0": {
+      "sha512": "0asw5WxdCFh2OTi9Gv+oKyH9SzxwYQSnO8TV5Dd0GggovILzJW4UimP26JAcxc3yB5NnC5urooZ1BBs8ElpiBw==",
+      "type": "package",
+      "path": "automapper.extensions.microsoft.dependencyinjection/11.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+        "automapper.extensions.microsoft.dependencyinjection.nuspec",
+        "icon.png",
+        "lib/netstandard2.1/AutoMapper.Extensions.Microsoft.DependencyInjection.dll"
+      ]
+    },
+    "FluentValidation/10.3.6": {
+      "sha512": "iMd370ZDx6ydm8t7bIFdRbSKX0e42lpvCtifUSbTSXOk5iKjmgl7HU0PXBhIWQAyIRi3gCwfMI9luj8H6K+byw==",
+      "type": "package",
+      "path": "fluentvalidation/10.3.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "fluent-validation-icon.png",
+        "fluentvalidation.10.3.6.nupkg.sha512",
+        "fluentvalidation.nuspec",
+        "lib/net5.0/FluentValidation.dll",
+        "lib/net5.0/FluentValidation.xml",
+        "lib/net6.0/FluentValidation.dll",
+        "lib/net6.0/FluentValidation.xml",
+        "lib/netstandard2.0/FluentValidation.dll",
+        "lib/netstandard2.0/FluentValidation.xml",
+        "lib/netstandard2.1/FluentValidation.dll",
+        "lib/netstandard2.1/FluentValidation.xml"
+      ]
+    },
+    "FluentValidation.AspNetCore/10.3.6": {
+      "sha512": "xUgEjm+aqQPiVyZHmIq1HCShjlu17Rm1iV6yuL9CFWAl9YPvMxJL7vB+A1CqFUeWsx3LH8fM8ivA/5q5jPmcJg==",
+      "type": "package",
+      "path": "fluentvalidation.aspnetcore/10.3.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "fluent-validation-icon.png",
+        "fluentvalidation.aspnetcore.10.3.6.nupkg.sha512",
+        "fluentvalidation.aspnetcore.nuspec",
+        "lib/net5.0/FluentValidation.AspNetCore.dll",
+        "lib/net5.0/FluentValidation.AspNetCore.xml",
+        "lib/net6.0/FluentValidation.AspNetCore.dll",
+        "lib/net6.0/FluentValidation.AspNetCore.xml",
+        "lib/netcoreapp3.1/FluentValidation.AspNetCore.dll",
+        "lib/netcoreapp3.1/FluentValidation.AspNetCore.xml"
+      ]
+    },
+    "FluentValidation.DependencyInjectionExtensions/10.3.6": {
+      "sha512": "yMwmbr+sHP/VLRQPTBVcgbJmtP5PGmxzNsqVX7FccDRwDB2edP8XsXWLNTZ4UwrslU1qQUD07BNQLDh7WXzpNw==",
+      "type": "package",
+      "path": "fluentvalidation.dependencyinjectionextensions/10.3.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "fluent-validation-icon.png",
+        "fluentvalidation.dependencyinjectionextensions.10.3.6.nupkg.sha512",
+        "fluentvalidation.dependencyinjectionextensions.nuspec",
+        "lib/netstandard2.0/FluentValidation.DependencyInjectionExtensions.dll",
+        "lib/netstandard2.0/FluentValidation.DependencyInjectionExtensions.xml",
+        "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll",
+        "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.xml"
+      ]
+    },
     "Humanizer.Core/2.8.26": {
       "sha512": "OiKusGL20vby4uDEswj2IgkdchC1yQ6rwbIkZDVBPIR6al2b7n3pC91elBul9q33KaBgRKhbZH3+2Ur4fnWx2A==",
       "type": "package",
@@ -895,10 +1057,10 @@
         "microsoft.aspnetcore.routing.abstractions.nuspec"
       ]
     },
-    "Microsoft.CSharp/4.5.0": {
-      "sha512": "kaj6Wb4qoMuH3HySFJhxwQfe8R/sJsNJnANrvv8WdFPMoNbKY5htfNscv+LHCu5ipz+49m2e+WQXpLXr9XYemQ==",
+    "Microsoft.CSharp/4.7.0": {
+      "sha512": "pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
       "type": "package",
-      "path": "microsoft.csharp/4.5.0",
+      "path": "microsoft.csharp/4.7.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -911,6 +1073,7 @@
         "lib/netcoreapp2.0/_._",
         "lib/netstandard1.3/Microsoft.CSharp.dll",
         "lib/netstandard2.0/Microsoft.CSharp.dll",
+        "lib/netstandard2.0/Microsoft.CSharp.xml",
         "lib/portable-net45+win8+wp8+wpa81/_._",
         "lib/uap10.0.16299/_._",
         "lib/win8/_._",
@@ -920,7 +1083,7 @@
         "lib/xamarinmac20/_._",
         "lib/xamarintvos10/_._",
         "lib/xamarinwatchos10/_._",
-        "microsoft.csharp.4.5.0.nupkg.sha512",
+        "microsoft.csharp.4.7.0.nupkg.sha512",
         "microsoft.csharp.nuspec",
         "ref/MonoAndroid10/_._",
         "ref/MonoTouch10/_._",
@@ -2286,6 +2449,11 @@
       "path": "../CL.Core/CL.Core.csproj",
       "msbuildProject": "../CL.Core/CL.Core.csproj"
     },
+    "CL.Core.Shared/1.0.0": {
+      "type": "project",
+      "path": "../CL.Core.Shared/CL.Core.Shared.csproj",
+      "msbuildProject": "../CL.Core.Shared/CL.Core.Shared.csproj"
+    },
     "CL.Data/1.0.0": {
       "type": "project",
       "path": "../CL.Data/CL.Data.csproj",
@@ -2300,13 +2468,17 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "CL.Core >= 1.0.0",
+      "CL.Core.Shared >= 1.0.0",
       "CL.Data >= 1.0.0",
+      "FluentValidation.AspNetCore >= 10.3.6",
       "Microsoft.AspNetCore.Mvc.Abstractions >= 2.2.0",
       "Microsoft.EntityFrameworkCore >= 6.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.0",
-      "Swashbuckle.AspNetCore >= 6.2.3"
+      "Swashbuckle.AspNetCore >= 6.2.3",
+      "automapper >= 11.0.0",
+      "automapper.extensions.microsoft.dependencyinjection >= 11.0.0"
     ]
   },
   "packageFolders": {
@@ -2340,6 +2512,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "D:\\Cursos e Estudos\\Gama Academy\\AceleraAtosCSharp\\ConsultorioLegal\\CL.Core.Shared\\CL.Core.Shared.csproj": {
+              "projectPath": "D:\\Cursos e Estudos\\Gama Academy\\AceleraAtosCSharp\\ConsultorioLegal\\CL.Core.Shared\\CL.Core.Shared.csproj"
+            },
             "D:\\Cursos e Estudos\\Gama Academy\\AceleraAtosCSharp\\ConsultorioLegal\\CL.Core\\CL.Core.csproj": {
               "projectPath": "D:\\Cursos e Estudos\\Gama Academy\\AceleraAtosCSharp\\ConsultorioLegal\\CL.Core\\CL.Core.csproj"
             },
@@ -2359,6 +2534,10 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "FluentValidation.AspNetCore": {
+            "target": "Package",
+            "version": "[10.3.6, )"
+          },
           "Microsoft.AspNetCore.Mvc.Abstractions": {
             "target": "Package",
             "version": "[2.2.0, )"
@@ -2386,6 +2565,14 @@
           "Swashbuckle.AspNetCore": {
             "target": "Package",
             "version": "[6.2.3, )"
+          },
+          "automapper": {
+            "target": "Package",
+            "version": "[11.0.0, )"
+          },
+          "automapper.extensions.microsoft.dependencyinjection": {
+            "target": "Package",
+            "version": "[11.0.0, )"
           }
         },
         "imports": [

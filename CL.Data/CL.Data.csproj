@@ -17,8 +17,4 @@
     <ProjectReference Include="..\CL.Manager\CL.Manager.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Migrations\" />
-  </ItemGroup>
-
 </Project>

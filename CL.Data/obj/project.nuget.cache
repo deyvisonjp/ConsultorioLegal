@@ -1,10 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "LiAgbbpxpGzDDwrjl0F1ZKDt3WNFJ+r92NSVqx/L7qXwdutkGNUsM2sQQvmO4sccWH79HHlT+LPjxG6GQiZtFg==",
+  "dgSpecHash": "yX0ecXaNf8CNh35lVfg/pLpnN3ihdD66TrrY581xyciPiDs4Ng57rrXd46nFP0zf3hVlk8vJSLyTVCJqCY5Wng==",
   "success": true,
   "projectFilePath": "D:\\Cursos e Estudos\\Gama Academy\\AceleraAtosCSharp\\ConsultorioLegal\\CL.Data\\CL.Data.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\deyvi\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\deyvi\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
+    "C:\\Users\\deyvi\\.nuget\\packages\\fluentvalidation\\10.3.6\\fluentvalidation.10.3.6.nupkg.sha512",
+    "C:\\Users\\deyvi\\.nuget\\packages\\fluentvalidation.aspnetcore\\10.3.6\\fluentvalidation.aspnetcore.10.3.6.nupkg.sha512",
+    "C:\\Users\\deyvi\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\10.3.6\\fluentvalidation.dependencyinjectionextensions.10.3.6.nupkg.sha512",
+    "C:\\Users\\deyvi\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\deyvi\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\deyvi\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
     "C:\\Users\\deyvi\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.0\\microsoft.entityframeworkcore.6.0.0.nupkg.sha512",

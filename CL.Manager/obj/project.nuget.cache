@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "IbEadNzoHejZZmrTjrbuzXrWij/qBP4kXc6+dEtFoXIdu6dEv2rbTZcsdpIzFYOUppFyIkPTkM44xWvIY3mEJw==",
+  "dgSpecHash": "tTU3kYmTqe57hlNieBi5nrZjZAI9QTkjdjqHht4RSsc4/igJ3dBZlzpXdpi5OQQ9DyLSCG87CaiLhSanLEsHQA==",
   "success": true,
   "projectFilePath": "D:\\Cursos e Estudos\\Gama Academy\\AceleraAtosCSharp\\ConsultorioLegal\\CL.Manager\\CL.Manager.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\deyvi\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
+    "C:\\Users\\deyvi\\.nuget\\packages\\fluentvalidation\\10.3.6\\fluentvalidation.10.3.6.nupkg.sha512",
+    "C:\\Users\\deyvi\\.nuget\\packages\\fluentvalidation.aspnetcore\\10.3.6\\fluentvalidation.aspnetcore.10.3.6.nupkg.sha512",
+    "C:\\Users\\deyvi\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\10.3.6\\fluentvalidation.dependencyinjectionextensions.10.3.6.nupkg.sha512",
+    "C:\\Users\\deyvi\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\deyvi\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
+  ],
   "logs": []
 }

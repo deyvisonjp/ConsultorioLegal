@@ -20,9 +20,11 @@ D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.Data\bin\
 D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.Data\bin\Debug\net6.0\ref\CL.Data.dll
 D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.Data\bin\Debug\net6.0\CL.Data.pdb
 D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.Data\bin\Debug\net6.0\CL.Core.dll
+D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.Data\bin\Debug\net6.0\CL.Core.Shared.dll
 D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.Data\bin\Debug\net6.0\CL.Manager.dll
 D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.Data\bin\Debug\net6.0\CL.Core.pdb
 D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.Data\bin\Debug\net6.0\CL.Manager.pdb
+D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.Data\bin\Debug\net6.0\CL.Core.Shared.pdb
 D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.Data\obj\Debug\net6.0\CL.Data.csproj.AssemblyReference.cache
 D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.Data\obj\Debug\net6.0\CL.Data.GeneratedMSBuildEditorConfig.editorconfig
 D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.Data\obj\Debug\net6.0\CL.Data.AssemblyInfoInputs.cache

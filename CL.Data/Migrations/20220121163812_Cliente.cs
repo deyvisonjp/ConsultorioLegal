@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace CL.Data.Migrations
 {
-    public partial class inicial : Migration
+    public partial class Cliente : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -16,7 +16,12 @@ namespace CL.Data.Migrations
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Nome = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    DataNascimento = table.Column<DateTime>(type: "datetime2", nullable: false)
+                    DataNascimento = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    Sexo = table.Column<string>(type: "nvarchar(1)", nullable: false),
+                    Telefone = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Documento = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Criacao = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    UltimaAtualizacao = table.Column<DateTime>(type: "datetime2", nullable: true)
                 },
                 constraints: table =>
                 {

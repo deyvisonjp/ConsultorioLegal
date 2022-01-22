@@ -54,3 +54,32 @@ https://youtu.be/U56ly54RT-I?list=PLbq2QKd5ieAt0H551D_0E4bGIYRxbq5HL
 2. Implementar as interfaces (IClienteRepository, IClienteManager)
 3. Implementar a Manager
 4. Implementar no Usuario Controller 
+
+## Aula 5 - Fluent Validation
+- Vamos validar os dados antes de serem inseridos na base de dados
+
+- Regra de negócio Validator em Manager
+- Vamos usar uma ferramenta para nos auxiliar com as validações
+	1. Instalar o pacote na camada manager e também em API
+		- install-package FluentValidation.AspNetCore
+		- vamos criar mais campos no dmain cliente
+		- com a criação dos novos campos precisamos (DATA) 'add-migration adicionaCamposCliente' e 'update-database'
+	2. Validação:
+		- RuleFor(RegraPara) 
+	3. Configurar a injeção de dependencia
+		- Adicionar no Startup(Program) o controller: .AddFluentValidation(p => p.RegisterValidatorsFromAssemblyContaining<ClienteValidator>())
+
+## Aula 6 - Model View - AutoMapper
+https://youtu.be/jYTPRki83z0?list=PLbq2QKd5ieAt0H551D_0E4bGIYRxbq5HL
+- Divisão de responsabilidades (Model View/DTO)
+- Instalação do pacote AutoMapper no projeto 
+	- API: install-package automapper e install-package automapper.extensions.microsoft.dependencyinjection
+	- MANAGER: somente... install-package automapper
+- Vamos criar uma represetação do que precisamos receber do usuário que esta recebendo a API
+- Na pasta 04.CL.Core Adicionar um novo projeto Class Library (.NET Standard) com o nome NovoCliente
+	- Essa classe será intermediária, aqui passa o que realmente a API espera receber do usuário
+- No Projeto manager vamos criar a pasta appings com o arquivo NovoClienteMappingProfile
+- Adicionar o serviço de automapper em Program/Startup
+
+Momento atual
+-- https://youtu.be/jYTPRki83z0?list=PLbq2QKd5ieAt0H551D_0E4bGIYRxbq5HL&t=1828

@@ -40,7 +40,12 @@
       "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
       "DisplayName": "Miscellaneous Files",
       "ColorIndex": -1
+    },
+    "640a9c27-b218-4a65-b895-b12d09d3e439": {
+      "ProjectGuid": "640a9c27-b218-4a65-b895-b12d09d3e439",
+      "DisplayName": "CL.Core.Shared",
+      "ColorIndex": 7
     }
   },
-  "NextColorIndex": 7
+  "NextColorIndex": 8
 }

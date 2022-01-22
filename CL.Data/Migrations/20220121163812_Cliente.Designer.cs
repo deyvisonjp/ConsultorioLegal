@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CL.Data.Migrations
 {
     [DbContext(typeof(ClContext))]
-    [Migration("20211227204452_inicial")]
-    partial class inicial
+    [Migration("20220121163812_Cliente")]
+    partial class Cliente
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -32,12 +32,30 @@ namespace CL.Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
+                    b.Property<DateTime>("Criacao")
+                        .HasColumnType("datetime2");
+
                     b.Property<DateTime>("DataNascimento")
                         .HasColumnType("datetime2");
+
+                    b.Property<string>("Documento")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Nome")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Sexo")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(1)");
+
+                    b.Property<string>("Telefone")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("UltimaAtualizacao")
+                        .HasColumnType("datetime2");
 
                     b.HasKey("Id");
 
