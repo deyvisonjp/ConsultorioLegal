@@ -30,3 +30,5 @@ D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.Manager\o
 D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.Manager\obj\Debug\net6.0\CL.Manager.dll
 D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.Manager\obj\Debug\net6.0\ref\CL.Manager.dll
 D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.Manager\obj\Debug\net6.0\CL.Manager.pdb
+D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.Manager\bin\Debug\net6.0\CL.Core.xml
+D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.Manager\bin\Debug\net6.0\CL.Core.Shared.xml

@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CL.Core.Shared</name>
+    </assembly>
+    <members>
+        <member name="T:CL.Core.Shared.ModelView.NovoCliente">
+            <summary>
+            Objeto utilizado para inserção de um novo cliente
+            </summary>
+        </member>
+        <member name="P:CL.Core.Shared.ModelView.NovoCliente.Nome">
+            <summary>
+            Nome do Cliente
+            </summary>
+            <example>Nome Sobrenome</example>
+        </member>
+        <member name="P:CL.Core.Shared.ModelView.NovoCliente.DataNascimento">
+            <summary>
+            Data de nascimento do cliente
+            </summary>
+            <example>2000-12-31</example>
+        </member>
+        <member name="P:CL.Core.Shared.ModelView.NovoCliente.Sexo">
+            <summary>
+            Sexo do cliente
+            </summary>
+            <example>M</example>
+        </member>
+        <member name="P:CL.Core.Shared.ModelView.NovoCliente.Telefone">
+            <summary>
+            Telefone do usuário
+            </summary>
+            <example>32112344321</example>
+        </member>
+        <member name="P:CL.Core.Shared.ModelView.NovoCliente.Documento">
+            <summary>
+            Documento do cliente: CNH, CPF, RG
+            </summary>
+            <example>12345678911</example>
+        </member>
+    </members>
+</doc>

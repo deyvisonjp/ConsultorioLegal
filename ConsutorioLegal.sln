@@ -26,7 +26,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CL.Tests", "CL.Tests\CL.Tes
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CL.WebApi", "CL.ApiWeb\CL.WebApi.csproj", "{539F4B9C-4E82-4AC1-A394-0609152B6A08}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CL.Core.Shared", "CL.Core.Shared\CL.Core.Shared.csproj", "{640A9C27-B218-4A65-B895-B12D09D3E439}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CL.Core.Shared", "CL.Core.Shared\CL.Core.Shared.csproj", "{640A9C27-B218-4A65-B895-B12D09D3E439}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

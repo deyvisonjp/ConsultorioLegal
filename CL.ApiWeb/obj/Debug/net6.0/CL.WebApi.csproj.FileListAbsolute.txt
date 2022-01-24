@@ -72,6 +72,7 @@ D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.ApiWeb\bi
 D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.ApiWeb\bin\Debug\net6.0\CL.WebApi.dll
 D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.ApiWeb\bin\Debug\net6.0\ref\CL.WebApi.dll
 D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.ApiWeb\bin\Debug\net6.0\CL.WebApi.pdb
+D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.ApiWeb\bin\Debug\net6.0\CL.WebApi.xml
 D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.ApiWeb\bin\Debug\net6.0\AutoMapper.dll
 D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.ApiWeb\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.ApiWeb\bin\Debug\net6.0\FluentValidation.dll
@@ -137,3 +138,5 @@ D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.ApiWeb\ob
 D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.ApiWeb\obj\Debug\net6.0\ref\CL.WebApi.dll
 D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.ApiWeb\obj\Debug\net6.0\CL.WebApi.pdb
 D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.ApiWeb\obj\Debug\net6.0\CL.WebApi.genruntimeconfig.cache
+D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.ApiWeb\bin\Debug\net6.0\CL.Core.xml
+D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.ApiWeb\bin\Debug\net6.0\CL.Core.Shared.xml

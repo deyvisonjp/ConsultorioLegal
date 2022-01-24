@@ -34,3 +34,5 @@ D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.Data\obj\
 D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.Data\obj\Debug\net6.0\CL.Data.dll
 D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.Data\obj\Debug\net6.0\ref\CL.Data.dll
 D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.Data\obj\Debug\net6.0\CL.Data.pdb
+D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.Data\bin\Debug\net6.0\CL.Core.xml
+D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.Data\bin\Debug\net6.0\CL.Core.Shared.xml

@@ -81,5 +81,14 @@ https://youtu.be/jYTPRki83z0?list=PLbq2QKd5ieAt0H551D_0E4bGIYRxbq5HL
 - No Projeto manager vamos criar a pasta appings com o arquivo NovoClienteMappingProfile
 - Adicionar o serviço de automapper em Program/Startup
 
+## Aula 7 - Organizando Startup/Program
+
+## Aula 8 - Swagger
+- Em configurações da API
+	- Build/Criar:
+		- Gerar arquivo de documentação Xml
+		- Suprimir avisos específicos: 1591
+- O mesmo vai acontecer para os atributos do Cliente (NovoCliente)
+	- Configurar CL.Core.Shared
+		- Gerar o arquivo xml: CL.Core.Shared.xml dentro do projeto API
 Momento atual
--- https://youtu.be/jYTPRki83z0?list=PLbq2QKd5ieAt0H551D_0E4bGIYRxbq5HL&t=1828
