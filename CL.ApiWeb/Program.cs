@@ -7,20 +7,26 @@ using CL.Manager.Validator;
 using CL.WebApi.Configuration;
 using CL.WebApi.Controllers;
 using FluentValidation.AspNetCore;
+using MicroElements.Swashbuckle.FluentValidation.AspNetCore;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
+
+var Configuration = builder.Configuration;
+
 
 builder.Services.AddControllers();
 builder.Services.AddFluentValidationConfiguration();
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
+
 builder.Services.AddSwaggerConfiguration();
 
-var connectionString = builder.Configuration.GetConnectionString("ClConnection");
-builder.Services.AddDbContext<ClContext>(options => options.UseSqlServer(connectionString)); //ClContext em 
+builder.Services.AddFluentValidationRulesToSwagger();
+
+builder.Services.AddDatabaseConfiguration(Configuration);
 
 builder.Services.AddDependencyInjectionConfiguration();
 
@@ -35,6 +41,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseSwaggerConfiguration();
+
+app.UseDatabaseConfiguration();
 
 app.UseHttpsRedirection();
 

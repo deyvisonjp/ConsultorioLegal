@@ -23,3 +23,4 @@ D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.Core\obj\
 D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.Core\obj\Debug\net6.0\CL.Core.pdb
 D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.Core\bin\Debug\net6.0\CL.Core.xml
 D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.Core\obj\Debug\net6.0\CL.Core.xml
+D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.Core\obj\Debug\net6.0\CL.Core.csproj.AssemblyReference.cache

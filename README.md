@@ -84,6 +84,7 @@ https://youtu.be/jYTPRki83z0?list=PLbq2QKd5ieAt0H551D_0E4bGIYRxbq5HL
 ## Aula 7 - Organizando Startup/Program
 
 ## Aula 8 - Swagger
+Devido a importancia da documentação, devemos usar todos recursos possíveis que o Swagger nos concede
 - Em configurações da API
 	- Build/Criar:
 		- Gerar arquivo de documentação Xml
@@ -91,4 +92,12 @@ https://youtu.be/jYTPRki83z0?list=PLbq2QKd5ieAt0H551D_0E4bGIYRxbq5HL
 - O mesmo vai acontecer para os atributos do Cliente (NovoCliente)
 	- Configurar CL.Core.Shared
 		- Gerar o arquivo xml: CL.Core.Shared.xml dentro do projeto API
-Momento atual
+
+## Aula 9 - Swagger com FluentValidation
+- Dentro do projeto CL.WebApi
+	- install-package MicroElements.Swashbuckle.FluentValidation
+
+## Aula 10 - EF Core - Garantindo integridade estrutural
+_Nossa aplicação é CodeFirst_
+Criando a DatabaseConfig, com isso automatizamos a criação do banco (update-migration)
+

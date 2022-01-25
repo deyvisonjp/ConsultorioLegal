@@ -5,6 +5,7 @@ namespace CL.WebApi.Configuration
 {
     public static class SwaggerConfig
     {
+        [Obsolete]
         public static void AddSwaggerConfiguration(this IServiceCollection services)
         {
             services.AddSwaggerGen(c =>
@@ -28,6 +29,7 @@ namespace CL.WebApi.Configuration
                         },
                         TermsOfService = new Uri("https://opensource.org/osd")
                     });
+
                 var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml"; // Via assembly pega o nome da aplicação
                 var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile); // Repositório e concatenação com arquivo xml
                 c.IncludeXmlComments(xmlPath);

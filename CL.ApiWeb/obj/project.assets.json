@@ -74,6 +74,19 @@
           "lib/netstandard2.0/Humanizer.dll": {}
         }
       },
+      "MicroElements.Swashbuckle.FluentValidation/5.4.0": {
+        "type": "package",
+        "dependencies": {
+          "FluentValidation": "[10.0.0, 11.0.0)",
+          "Swashbuckle.AspNetCore.SwaggerGen": "[6.0.2, 7.0.0)"
+        },
+        "compile": {
+          "lib/netstandard2.0/MicroElements.Swashbuckle.FluentValidation.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/MicroElements.Swashbuckle.FluentValidation.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Http.Abstractions/2.2.0": {
         "type": "package",
         "dependencies": {
@@ -1003,6 +1016,19 @@
         "lib/netstandard2.0/Humanizer.dll",
         "lib/netstandard2.0/Humanizer.xml",
         "logo.png"
+      ]
+    },
+    "MicroElements.Swashbuckle.FluentValidation/5.4.0": {
+      "sha512": "wiLlujt6yU2suNurU0xeJsBK0+JyXufm0dmQpjnvjvtJaRrwtMBPETHvAYgXIoOkLBb4a1MR+zFJOKRpqh6hDQ==",
+      "type": "package",
+      "path": "microelements.swashbuckle.fluentvalidation/5.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/MicroElements.Swashbuckle.FluentValidation.dll",
+        "lib/netstandard2.0/MicroElements.Swashbuckle.FluentValidation.xml",
+        "microelements.swashbuckle.fluentvalidation.5.4.0.nupkg.sha512",
+        "microelements.swashbuckle.fluentvalidation.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Http.Abstractions/2.2.0": {
@@ -2471,6 +2497,7 @@
       "CL.Core.Shared >= 1.0.0",
       "CL.Data >= 1.0.0",
       "FluentValidation.AspNetCore >= 10.3.6",
+      "MicroElements.Swashbuckle.FluentValidation >= 5.4.0",
       "Microsoft.AspNetCore.Mvc.Abstractions >= 2.2.0",
       "Microsoft.EntityFrameworkCore >= 6.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.0",
@@ -2537,6 +2564,10 @@
           "FluentValidation.AspNetCore": {
             "target": "Package",
             "version": "[10.3.6, )"
+          },
+          "MicroElements.Swashbuckle.FluentValidation": {
+            "target": "Package",
+            "version": "[5.4.0, )"
           },
           "Microsoft.AspNetCore.Mvc.Abstractions": {
             "target": "Package",

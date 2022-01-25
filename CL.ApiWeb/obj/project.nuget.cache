@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "4g7i8gG4eREdXDRK8O8ot3JOdGzeiKFscyPhpe6uJ87vWcWMKYxREge4wWOJ/mVEgMqdA9tFP6eRd3bf4ikO9A==",
+  "dgSpecHash": "tzNe6s3AiSLHoWd5pTNnsmD1xER+41PiSFS6PKb07ldEUZ//q8cyPMyR0mx024Lk0H327YNwGNNWIP8N3aYK7w==",
   "success": true,
   "projectFilePath": "D:\\Cursos e Estudos\\Gama Academy\\AceleraAtosCSharp\\ConsultorioLegal\\CL.ApiWeb\\CL.WebApi.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,7 @@
     "C:\\Users\\deyvi\\.nuget\\packages\\fluentvalidation.aspnetcore\\10.3.6\\fluentvalidation.aspnetcore.10.3.6.nupkg.sha512",
     "C:\\Users\\deyvi\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\10.3.6\\fluentvalidation.dependencyinjectionextensions.10.3.6.nupkg.sha512",
     "C:\\Users\\deyvi\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\deyvi\\.nuget\\packages\\microelements.swashbuckle.fluentvalidation\\5.4.0\\microelements.swashbuckle.fluentvalidation.5.4.0.nupkg.sha512",
     "C:\\Users\\deyvi\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\deyvi\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
     "C:\\Users\\deyvi\\.nuget\\packages\\microsoft.aspnetcore.mvc.abstractions\\2.2.0\\microsoft.aspnetcore.mvc.abstractions.2.2.0.nupkg.sha512",

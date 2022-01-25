@@ -140,3 +140,4 @@ D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.ApiWeb\ob
 D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.ApiWeb\obj\Debug\net6.0\CL.WebApi.genruntimeconfig.cache
 D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.ApiWeb\bin\Debug\net6.0\CL.Core.xml
 D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.ApiWeb\bin\Debug\net6.0\CL.Core.Shared.xml
+D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.ApiWeb\bin\Debug\net6.0\MicroElements.Swashbuckle.FluentValidation.dll
