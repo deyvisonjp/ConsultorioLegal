@@ -9,54 +9,82 @@ using CL.WebApi.Controllers;
 using FluentValidation.AspNetCore;
 using MicroElements.Swashbuckle.FluentValidation.AspNetCore;
 using Microsoft.EntityFrameworkCore;
+using Serilog;
 
-var builder = WebApplication.CreateBuilder(args);
-// Add services to the container.
+//Log.Logger = new LoggerConfiguration()
+//    .Enrich.FromLogContext()
+//    .WriteTo.File("logs/log.txt", fileSizeLimitBytes: 500000, rollOnFileSizeLimit: true, rollingInterval: RollingInterval.Day) // após a instalação do Sinks
+//    .WriteTo.Console()
+//    .CreateLogger();
+//    // https://github.com/serilog/serilog/wiki/Configuration-Basics
 
-var Configuration = builder.Configuration;
+//Log.Information("Iniciando o WebApi");
 
-
-builder.Services.AddControllers();
-builder.Services.AddFluentValidationConfiguration();
-
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
-
-builder.Services.AddSwaggerConfiguration();
-
-builder.Services.AddFluentValidationRulesToSwagger();
-
-builder.Services.AddDatabaseConfiguration(Configuration);
-
-builder.Services.AddDependencyInjectionConfiguration();
-
-builder.Services.AddAutoMapperConfiguration();
-
-var app = builder.Build();
-
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
+try
 {
-   app.UseDeveloperExceptionPage();
+    var builder = WebApplication.CreateBuilder(args);
+
+    builder.Host.UseSerilog((ctx, lc) => lc
+        .Enrich.FromLogContext()
+        .MinimumLevel.Debug()
+        .WriteTo.Async(p => p.Console())
+        .WriteTo.Async(p => p.File("logs/log.txt", fileSizeLimitBytes: 500000, rollOnFileSizeLimit: true, rollingInterval: RollingInterval.Day))
+        .ReadFrom.Configuration(ctx.Configuration));
+
+    var Configuration = builder.Configuration;
+
+    builder.Services.AddControllers();
+    builder.Services.AddFluentValidationConfiguration();
+
+    // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+    builder.Services.AddEndpointsApiExplorer();
+
+    builder.Services.AddSwaggerConfiguration();
+
+    builder.Services.AddFluentValidationRulesToSwagger();
+
+    builder.Services.AddDatabaseConfiguration(Configuration);
+
+    builder.Services.AddDependencyInjectionConfiguration();
+
+    builder.Services.AddAutoMapperConfiguration();
+
+    var app = builder.Build();
+
+    app.UseSerilogRequestLogging();
+
+    // Configure the HTTP request pipeline.
+    if (app.Environment.IsDevelopment())
+    {
+        app.UseDeveloperExceptionPage();
+    }
+
+    app.UseSwaggerConfiguration();
+
+    app.UseDatabaseConfiguration();
+
+    app.UseHttpsRedirection();
+
+    app.UseRouting();
+
+    app.UseAuthorization();
+
+    app.UseEndpoints(endpoints =>
+    {
+        endpoints.MapControllers();
+    });
+
+    app.Run();
 }
-
-app.UseSwaggerConfiguration();
-
-app.UseDatabaseConfiguration();
-
-app.UseHttpsRedirection();
-
-app.UseRouting();
-
-app.UseAuthorization();
-
-app.MapControllers();
-
-app.UseEndpoints(endpoints =>
+catch (Exception ex)
 {
-    endpoints.MapControllers();
-});
-
-app.Run();
+    Log.Fatal(ex, "Erro catatrófico");
+    throw;
+}
+finally
+{
+    Log.Information("Finalizando o WebApi");
+    Log.CloseAndFlush();
+}
 
 

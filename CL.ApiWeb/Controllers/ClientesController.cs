@@ -14,9 +14,11 @@ namespace CL.WebApi.Controllers
     {
 
         private readonly IClienteManager _clienteManager;
-        public ClientesController(IClienteManager clienteManager)
+        private readonly ILogger _logger;
+        public ClientesController(IClienteManager clienteManager, ILogger<ClientesController> logger)
         {
             _clienteManager = clienteManager;
+            _logger = logger;
         }
 
         /// <summary>
@@ -27,6 +29,7 @@ namespace CL.WebApi.Controllers
         [ProducesResponseType(typeof(ProblemDetails), StatusCodes.Status500InternalServerError)]
         public async Task<IActionResult> Get()
         {
+            _logger.LogInformation("Foi requisitado um GET dos clientes.");
             return Ok(await _clienteManager.GetClientesAsync());
         }
 
@@ -52,6 +55,7 @@ namespace CL.WebApi.Controllers
         [ProducesResponseType(typeof(ProblemDetails), StatusCodes.Status500InternalServerError)]
         public async Task<IActionResult> Post(NovoCliente novoCliente)
         {
+            _logger.LogInformation("Foi requisitado a inserção de um novo cliente.");
             var clienteInserido = await _clienteManager.InsertClienteAsync(novoCliente);
             return CreatedAtAction(nameof(Get), new { id = clienteInserido.Id }, clienteInserido); //Facilitador do .NET // nameof =  referencia auto o nome do metodo Get
         }

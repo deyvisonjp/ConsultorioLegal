@@ -99,5 +99,18 @@ Devido a importancia da documentação, devemos usar todos recursos possíveis q
 
 ## Aula 10 - EF Core - Garantindo integridade estrutural
 _Nossa aplicação é CodeFirst_
-Criando a DatabaseConfig, com isso automatizamos a criação do banco (update-migration)
+Criando e configurando a DatabaseConfig, com isso automatizamos a criação do banco (update-migration)
 
+## Aula 11 - Logs
+- Registrar logs da aplicação
+- Salvar em arquivo
+- Utilizar forma assíncrona
+- Utilizar arquivo de configuração por ambiente
+- Registrar logs de tempo de execução
+- Salvar logs no formato Json
+- Logar as exceções com mais detalhes
+
+### Pacote Serialog
+- Instalação WebApi: install-package Serilog.AspNetCore
+- Para salvar em arquivo, vamos instalar: install-package SeriLog.Sinks.File
+- Para rodar o log de modo assíncrono: install-package Serilog.Sinks.Async

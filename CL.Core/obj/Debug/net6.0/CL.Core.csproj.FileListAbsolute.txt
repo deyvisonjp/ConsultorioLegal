@@ -14,13 +14,13 @@ D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.Core\bin\
 D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.Core\bin\Debug\net6.0\CL.Core.dll
 D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.Core\bin\Debug\net6.0\ref\CL.Core.dll
 D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.Core\bin\Debug\net6.0\CL.Core.pdb
+D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.Core\bin\Debug\net6.0\CL.Core.xml
+D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.Core\obj\Debug\net6.0\CL.Core.csproj.AssemblyReference.cache
 D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.Core\obj\Debug\net6.0\CL.Core.GeneratedMSBuildEditorConfig.editorconfig
 D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.Core\obj\Debug\net6.0\CL.Core.AssemblyInfoInputs.cache
 D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.Core\obj\Debug\net6.0\CL.Core.AssemblyInfo.cs
 D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.Core\obj\Debug\net6.0\CL.Core.csproj.CoreCompileInputs.cache
 D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.Core\obj\Debug\net6.0\CL.Core.dll
 D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.Core\obj\Debug\net6.0\ref\CL.Core.dll
-D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.Core\obj\Debug\net6.0\CL.Core.pdb
-D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.Core\bin\Debug\net6.0\CL.Core.xml
 D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.Core\obj\Debug\net6.0\CL.Core.xml
-D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.Core\obj\Debug\net6.0\CL.Core.csproj.AssemblyReference.cache
+D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.Core\obj\Debug\net6.0\CL.Core.pdb
