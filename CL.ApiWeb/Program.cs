@@ -20,18 +20,25 @@ using Serilog;
 
 //Log.Information("Iniciando o WebApi");
 
+
 try
 {
     var builder = WebApplication.CreateBuilder(args);
+    var configurationDatabase = builder.Configuration;
+
+    #region Config Log
+    //https://youtu.be/u9UREKdQD70?list=PLbq2QKd5ieAt0H551D_0E4bGIYRxbq5HL&t=2770
+    string ambiente = Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT"); // Vem do arquivo Properties/launchSettings.json
+    var configurationLog = new ConfigurationBuilder()
+        .SetBasePath(Directory.GetCurrentDirectory())
+        .AddJsonFile("appsettings.json")
+        .AddJsonFile($"appsettings.{ambiente}.json")
+        .Build();
 
     builder.Host.UseSerilog((ctx, lc) => lc
-        .Enrich.FromLogContext()
-        .MinimumLevel.Debug()
-        .WriteTo.Async(p => p.Console())
-        .WriteTo.Async(p => p.File("logs/log.txt", fileSizeLimitBytes: 500000, rollOnFileSizeLimit: true, rollingInterval: RollingInterval.Day))
+        .ReadFrom.Configuration(configurationLog)
         .ReadFrom.Configuration(ctx.Configuration));
-
-    var Configuration = builder.Configuration;
+    #endregion
 
     builder.Services.AddControllers();
     builder.Services.AddFluentValidationConfiguration();
@@ -43,7 +50,7 @@ try
 
     builder.Services.AddFluentValidationRulesToSwagger();
 
-    builder.Services.AddDatabaseConfiguration(Configuration);
+    builder.Services.AddDatabaseConfiguration(configurationDatabase);
 
     builder.Services.AddDependencyInjectionConfiguration();
 

@@ -65,8 +65,8 @@ C:\Workspaces\ConsutorioLegal\CL.ApiWeb\bin\Debug\net6.0\CL.Data.pdb
 C:\Workspaces\ConsutorioLegal\CL.ApiWeb\bin\Debug\net6.0\CL.Manager.dll
 C:\Workspaces\ConsutorioLegal\CL.ApiWeb\bin\Debug\net6.0\CL.Manager.pdb
 D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.ApiWeb\bin\Debug\net6.0\appsettings.Development.json
-D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.ApiWeb\bin\Debug\net6.0\appsettings.json
 D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.ApiWeb\bin\Debug\net6.0\CL.WebApi.exe
+D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.ApiWeb\bin\Debug\net6.0\appsettings.json
 D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.ApiWeb\bin\Debug\net6.0\CL.WebApi.deps.json
 D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.ApiWeb\bin\Debug\net6.0\CL.WebApi.runtimeconfig.json
 D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.ApiWeb\bin\Debug\net6.0\CL.WebApi.dll
@@ -81,7 +81,6 @@ D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.ApiWeb\bi
 D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.ApiWeb\bin\Debug\net6.0\Humanizer.dll
 D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.ApiWeb\bin\Debug\net6.0\MicroElements.Swashbuckle.FluentValidation.dll
 D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.ApiWeb\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
-D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.ApiWeb\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
 D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.ApiWeb\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
 D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.ApiWeb\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.ApiWeb\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
@@ -96,16 +95,17 @@ D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.ApiWeb\bi
 D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.ApiWeb\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
 D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.ApiWeb\bin\Debug\net6.0\Microsoft.OpenApi.dll
 D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.ApiWeb\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
-D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.ApiWeb\bin\Debug\net6.0\Newtonsoft.Json.dll
 D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.ApiWeb\bin\Debug\net6.0\Serilog.dll
 D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.ApiWeb\bin\Debug\net6.0\Serilog.AspNetCore.dll
 D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.ApiWeb\bin\Debug\net6.0\Serilog.Extensions.Hosting.dll
 D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.ApiWeb\bin\Debug\net6.0\Serilog.Extensions.Logging.dll
 D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.ApiWeb\bin\Debug\net6.0\Serilog.Formatting.Compact.dll
 D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.ApiWeb\bin\Debug\net6.0\Serilog.Settings.Configuration.dll
+D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.ApiWeb\bin\Debug\net6.0\Serilog.Sinks.Async.dll
 D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.ApiWeb\bin\Debug\net6.0\Serilog.Sinks.Console.dll
 D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.ApiWeb\bin\Debug\net6.0\Serilog.Sinks.Debug.dll
 D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.ApiWeb\bin\Debug\net6.0\Serilog.Sinks.File.dll
+D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.ApiWeb\bin\Debug\net6.0\SerilogTimings.dll
 D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.ApiWeb\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.ApiWeb\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.ApiWeb\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -153,4 +153,4 @@ D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.ApiWeb\ob
 D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.ApiWeb\obj\Debug\net6.0\ref\CL.WebApi.dll
 D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.ApiWeb\obj\Debug\net6.0\CL.WebApi.pdb
 D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.ApiWeb\obj\Debug\net6.0\CL.WebApi.genruntimeconfig.cache
-D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.ApiWeb\bin\Debug\net6.0\Serilog.Sinks.Async.dll
+D:\Cursos e Estudos\Gama Academy\AceleraAtosCSharp\ConsultorioLegal\CL.ApiWeb\bin\Debug\net6.0\Serilog.Exceptions.dll

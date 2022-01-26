@@ -102,15 +102,11 @@ _Nossa aplicação é CodeFirst_
 Criando e configurando a DatabaseConfig, com isso automatizamos a criação do banco (update-migration)
 
 ## Aula 11 - Logs
-- Registrar logs da aplicação
-- Salvar em arquivo
-- Utilizar forma assíncrona
-- Utilizar arquivo de configuração por ambiente
-- Registrar logs de tempo de execução
-- Salvar logs no formato Json
-- Logar as exceções com mais detalhes
-
-### Pacote Serialog
-- Instalação WebApi: install-package Serilog.AspNetCore
-- Para salvar em arquivo, vamos instalar: install-package SeriLog.Sinks.File
-- Para rodar o log de modo assíncrono: install-package Serilog.Sinks.Async
+- [x] Registrar logs da aplicação, instalação em WebApi: install-package Serilog.AspNetCore
+- [x] Para salvar em arquivo, vamos instalar: install-package SeriLog.Sinks.File
+- [x] Para rodar o log de modo assíncrono: install-package Serilog.Sinks.Async
+- [x] Utilizar arquivo de configuração por ambiente: `install-package Serilog.Settings.Configuration`
+- [x] Registrar logs de tempo de execução: `install-package SerilogTimings`
+- Salvar logs no formato Json: `install-package Serilog.Formatting.Compact`
+- Logar as exceções com mais detalhes: `install-package Serilog.Exceptions`
+- AppSettings: Será gerado de foram distinta para produção e desenvolvimento, conforme configurãções feitas

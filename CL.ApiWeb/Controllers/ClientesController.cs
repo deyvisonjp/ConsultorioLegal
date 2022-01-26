@@ -3,6 +3,7 @@ using CL.Core.Domain;
 using CL.Manager.Interfaces;
 using CL.Manager.Validator;
 using CL.Core.Shared.ModelView;
+using SerilogTimings;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -29,8 +30,8 @@ namespace CL.WebApi.Controllers
         [ProducesResponseType(typeof(ProblemDetails), StatusCodes.Status500InternalServerError)]
         public async Task<IActionResult> Get()
         {
-            _logger.LogInformation("Foi requisitado um GET dos clientes.");
-            return Ok(await _clienteManager.GetClientesAsync());
+                _logger.LogInformation("Foi requisitado um GET dos clientes.");
+                return Ok(await _clienteManager.GetClientesAsync());
         }
 
         /// <summary>
@@ -43,7 +44,7 @@ namespace CL.WebApi.Controllers
         [ProducesResponseType(typeof(ProblemDetails), StatusCodes.Status500InternalServerError)]
         public async Task<IActionResult> Get(int id)
         {
-            return Ok(await _clienteManager.GetClienteAsync(id));
+                return Ok(await _clienteManager.GetClienteAsync(id));
         }
 
         /// <summary>
@@ -55,8 +56,14 @@ namespace CL.WebApi.Controllers
         [ProducesResponseType(typeof(ProblemDetails), StatusCodes.Status500InternalServerError)]
         public async Task<IActionResult> Post(NovoCliente novoCliente)
         {
-            _logger.LogInformation("Foi requisitado a inserção de um novo cliente.");
-            var clienteInserido = await _clienteManager.InsertClienteAsync(novoCliente);
+            _logger.LogInformation("Objeto recebido {@novoCliente}", novoCliente);
+
+            Cliente clienteInserido;
+            using (Operation.Time("Tempo de adição de um novo cliente."))
+            {
+                _logger.LogInformation("Foi requisitado a inserção de um novo cliente.");
+                clienteInserido = await _clienteManager.InsertClienteAsync(novoCliente);
+            }
             return CreatedAtAction(nameof(Get), new { id = clienteInserido.Id }, clienteInserido); //Facilitador do .NET // nameof =  referencia auto o nome do metodo Get
         }
 
